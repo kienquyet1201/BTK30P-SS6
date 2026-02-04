@@ -1,6 +1,6 @@
 let str = "Quý, Nam, Lan, Hùng, Nam";
 
-let students = str.split(",");
+let students = str.split(", ");
 console.log(students);
 
 students.reverse();
@@ -31,4 +31,5 @@ console.log(indexNam);
 //         total += prices[i];
 //     }
 // }
+
 // console.log(total);
